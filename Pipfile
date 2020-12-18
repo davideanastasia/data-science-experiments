@@ -7,10 +7,12 @@ verify_ssl = true
 
 [packages]
 keras = "*"
+jupyter = "*"
 jupyterlab = "*"
 sklearn = "*"
 tensorflow = "*"
 pandas = "*"
+matplotlib = "*"
 seaborn = "*"
 catboost = "*"
 ipywidgets = "*"
@@ -18,6 +20,7 @@ shap = "*"
 xgboost = "==1.0.2"
 torch = "*"
 torchvision = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.7"
